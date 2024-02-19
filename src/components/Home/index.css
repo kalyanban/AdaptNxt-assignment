@@ -1,0 +1,111 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 78%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.orders {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35px;
+    width: 110px;
+    background-color: #ffffff;
+    margin-left: 8px;
+}
+.orders-text {
+    color: blue;
+}
+.settings-icon {
+    margin-right: 8px;
+}
+
+.info-container {
+    display: felx;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    width: 100%;
+    margin-top: 20px;
+}
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 12px;
+}
+.buttons-container-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.import-button, .accept-button, .print-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.import-text {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.refresh-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    color: #ffffff;
+    background-color: blue;
+    border: none;border-radius: 3px;
+}
+
+.table {
+    height: 70px;
+    width: 100%;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+th {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+
+td {
+    text-align: start;
+}
+.row-headings {
+    font-weight: 600;
+    font-size: 12px;
+}
+.checkbox-col {
+    width: 50px;
+}
+
+.bag-image {
+    height: 25px;
+    width: 30px;
+}
